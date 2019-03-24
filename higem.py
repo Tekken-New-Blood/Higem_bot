@@ -353,4 +353,4 @@ async def on_message(message):
         if mid not in get_channels():
             await message.delete()
 
-bot.run("NDE2NjQzNTE1MDg3MzIzMTU3.DdHSWA.sV9BLs5rJ0QCnJiSRjPBoZ7-WO8")
+bot.run("")
