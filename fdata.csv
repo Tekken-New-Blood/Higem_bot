@@ -1223,7 +1223,7 @@ Dragunov,3+4tech,h (TJ) (Special),25,25~26s js13~,-24~-23g,CS,CS,,"3+4,tech"
 Dragunov,f2,h,16,19~20,-8~-7,3~4,8~9,,f+2
 Dragunov,f24,"h, m","16,24",19~20,-7~-6,KND,uKZD,,"f+2,4"
 Dragunov,f3,m,11,20,-6,2,2,,f+3
-Dragunov,f3df,m (Special),11,20,-1,7,7,,"f+3,d/f"
+Dragunov,f3df,m (to cd),11,20,-1,7,7,,"f+3,d/f"
 Dragunov,f32,"m, h","11,20",20,-9~-8,KND,KND,Tail Spin,"f+3,2"
 Dragunov,f33close,"m, m (throw)","11,14(,20)",20,-12,Throw(KND),Throw(KND),,"f+3,3 close"
 Dragunov,f33,"m, m","11,14",20,-12~-9,-1~2s,4~7s,,"f+3,3"
@@ -2372,7 +2372,7 @@ Hwoarang,ub3,m,8,16~17,-14~-13,-3~-2,-3~-2,,u/b+3
 Hwoarang,ub33,"m, h (TJ) (LFS)","8,15",js17~,3~5,KND,KND,Tail Spin,"u/b+3,3"
 Hwoarang,ub34,"m, m (RFS)","8,16",17~,-4,12g,12g,,"u/b+3,4"
 Hwoarang,ub4,m (TJ),18,17~20 js5~15,-8~-5,10~13,10~13,,u/b+4
-Hwoarang,u3,h (TJ) (LFS),33,20 js9~,3,uKZD,uKZD,,u+3
+Hwoarang,u3,h (TJ) (LFS),25,20 js9~,3,uKZD,uKZD,,u+3
 Hwoarang,u4,m (TJ) (RFS),18,16~18 js9~,0~2,11~13g,11~13,,u+4
 Hwoarang,u3+4,m (TJ),20,25~26 js8~,-7~-6,KND,KND,,u+3+4
 Hwoarang,uf2,m (TJ),22,26 js13~,5s,4s,KND,,u/f+2
@@ -2389,8 +2389,10 @@ Hwoarang,ff4,m (RFF),22,17~18 (18~),-7~-6,KND,KND,,"f,f+4"
 Hwoarang,cd3,m (LFS),27,18(21~),3,KND,CS,Wall Bounce,"f,n,d,d/f+3"
 Hwoarang,fnddf3,m (LFS),27,18(21~),3,KND,CS,Wall Bounce,"f,n,d,d/f+3"
 Hwoarang,cd4,m,18,16(19~),-18,Launch,Launch,,"f,n,d,d/f+4"
+Hwoarang,sr,m,18,16(19~),-18,Launch,Launch,,"f,n,d,d/f+4"
 Hwoarang,fnddf4,m,18,16(19~),-18,Launch,Launch,,"f,n,d,d/f+4"
 Hwoarang,fndf4,m,18,16(18~),-10,Launch,Launch,,"f,n,d/f+4"
+Hwoarang,jfsr,m,18,16(18~),-10,Launch,Launch,,"f,n,d/f+4"
 Hwoarang,wr3,m (TJ),30,22~24a (25~) js3~,6~8,KND,KND,,"f,f,f+3"
 Hwoarang,fff3,m (TJ),30,22~24a (25~) js3~,6~8,KND,KND,,"f,f,f+3"
 Hwoarang,wr4,h,28,18~19a (21~) js14~,5~6,8~9b,8~9b,,"f,f,f+4"
@@ -2853,12 +2855,15 @@ Jin,fnddf,(Crouch dash),22~27 (27~) 10~,"f,n,d,df",,,,,"f,n,d,d/f"
 Jin,cduf,(Special) (TJ) (Crouch dash),22~27 (27~) 10~,"f,n,d,df,uf",,,,,"f,n,d,d/f,u/f"
 Jin,fnddfuf,(Special) (TJ) (Crouch dash),22~27 (27~) 10~,"f,n,d,df,uf",,,,,"f,n,d,d/f,u/f"
 Jin,cd1,m,20,16~17 (20~),-13~-12,Launch,Launch,,"f,n,d,d/f+1"
+Jin,cd:1,m,22,16~17 (20~),-13~-12,Launch,Launch,,"f,n,d,d/f+1"
+Jin,ecd1,m,22,16~17 (20~),-13~-12,Launch,Launch,,"f,n,d,d/f+1"
 Jin,fnddf1,m,20,16~17 (20~),-13~-12,Launch,Launch,,"f,n,d,d/f+1"
 Jin,fnddf:1,m,22,16~17 (19~),-13~-12,Launch,Launch,,"f,n,d,d/f:1"
 Jin,whf,h,20,11~12 (15~),-10~-9,KND,KND,,"f,n,d,d/f+2"
 Jin,cd2,h,20,11~12 (15~),-10~-9,KND,KND,,"f,n,d,d/f+2"
 Jin,fnddf2,h,20,11~12 (15~),-10~-9,KND,KND,,"f,n,d,d/f+2"
 Jin,ewhf,h,25,11~12 (14~),5~6,KND,KND,,"f,n,d,d/f:2"
+Jin,cd:2,h,25,11~12 (14~),5~6,KND,KND,,"f,n,d,d/f:2"
 Jin,fnddf:2,h,25,11~12 (14~),5~6,KND,KND,,"f,n,d,d/f:2"
 Jin,cd3,m,20,16~18 (19~),-9~-7,10~12kg,KND,"Homing, Tail Spin","f,n,d,d/f+3"
 Jin,fnddf3,m,20,16~18 (19~),-9~-7,10~12kg,KND,"Homing, Tail Spin","f,n,d,d/f+3"
@@ -3282,7 +3287,7 @@ Kazuya,12,"h, h","7,8",10,-1,7,7,,"1,2"
 Kazuya,122,"h, h, h","7,8,12",10,-12,4,4,,"1,2,2"
 Kazuya,124,"h, h, l","7,8,18",10,-14~-13,-3~-2,0~1s,,"1,2,4"
 Kazuya,1243,"h, h, l, m","7,8,18,25",10,-2,KND,CS,,"1,2,4,3"
-Kazuya,2,h,12,12,-3,8,8,Rage Art,2
+Kazuya,2,h,12,12,-3,8,8,,2
 Kazuya,22,"h, m","12,24",12,-10~-9,6~7,CS,Tail Spin,"2,2"
 Kazuya,3,h,14,14,-8,4,4,,3
 Kazuya,3+4,h,14,14,-8,4,4,,3+4
@@ -3589,7 +3594,7 @@ King,cdn,-,-,12,-,-,-,,"f,n,d,d/f,n"
 King,fnddfn,-,-,12,-,-,-,,"f,n,d,d/f,n"
 King,3,h,33,17,-14,KND,KND,,3
 King,4,h,27,13,-5,6,Launch,,4
-King,f1,h,9,10,1,8,8,,f+1
+King,f1,h,7,10,1,8,8,,f+1
 King,ff3,m,24,15(16~),-9,1,9,,"f,f+3"
 King,db1,Sm (TC),6,10s,-5,6,6,,d/b+1
 King,d2,Sm (TC),10,11s,-4,7,7,,d+2
@@ -4030,7 +4035,7 @@ Law,d1,l (TC),15,21~22s cs6~,-13~-12,1~2s,1~2s,,d+1
 Law,d13,"l (TC), h","15,21",21~22 6~,-9~-8,KND,KND,Tail Spin,"d+1,3"
 Law,d2,Sm (TC),8,11s cs4~,-4,7,7,,d+2
 Law,fc2,Sm (TC),8,11s cs4~,-4,7,7,,FC 2
-Law,d23,"Sm (TC), m","8,21",11 4~,-15~-12,Launch,Launch,,"d+2,3"
+Law,d23,"Sm (TC), m","8,21",11 cs4~,-15~-12,Launch,Launch,,"d+2,3"
 Law,d3,l,8,16,-14,-3,-3,,d+3
 Law,d33,"l, h","8,17",16,-7,KND,CS,,"d+3,3"
 Law,d4,l,7,15,-11,0,0,,d+4
@@ -4040,7 +4045,7 @@ Law,d3+43,"l (TC), m (TJ)","7,23",s js19~,-18~-16,Launch,Launch,,"d+3+4,3"
 Law,db2,m,15,14b,-4,7,7,,d/b+2
 Law,db24,"m, m (TJ)","15,25",js15~,-17~-10,KND,KND,,"d/b+2,4"
 Law,db24d,"m, m (TJ)","15,25",d js15~,-6~1,KND,KND,,"d/b+2,4,d"
-Law,db3,l,20,17~19,-12~-10,4~6s,KND,,d/b+3
+Law,db3,l,15,17~19,-12~-10,4~6s,KND,,d/b+3
 Law,db4,l (TC),20,26~27 cs6~,-37,KND,KND,Homing,d/b+4
 Law,db44,"l (TC), m (TJ)","20,27",js26~,-9~-7,KND,KND,,"d/b+4,4"
 Law,db1+2,m!,90,78,KND,KND,KND,,d/b+1+2
@@ -5493,7 +5498,7 @@ Nina,btd1,Sm,10,10s cs1~,-2,9,9,,BT d+1
 Nina,btd2,Sm,10,10s cs1~,-2,9,9,,BT d+2
 Nina,btd3,l,12,10s cs1~,-11,3,3,,BT d+3
 Nina,btd4,l,12,10s cs1~,-11,3,3,,BT d+4
-Noctis,raged1+2,m,55,20 pc,-32,throw,throw,rage Art,In Rage d+1+2
+Noctis,raged1+2,m,55,20 pc,-32,throw,throw,Rage Art,In Rage d+1+2
 Noctis,ragef2+3,m,"10,30",18,2,Throw,Throw,Rage Drive,In Rage f+2+3
 Noctis,1,h,7,10,1,8,8,,1
 Noctis,12,"h, h","7,8",10,-2,6,6,,"1,2"
@@ -6138,13 +6143,13 @@ Steve,pabdf1121,"m, m, m, m","12,14,12,20",15~16 (16~),-13,KND,KND,,"PAB d/f+1,1
 Steve,pabdf12,"m, h","12,20",15~16 (16~),-6~-5,KND,KND,Tail Spin,"PAB d/f+1,2"
 Steve,pabdf2,m (PAB),16,16~17 (17~),-10~-9,Launch,Launch,,PAB d/f+2
 Steve,pabd1,l (TC) (PAB),12,15~16 (16~) cs6~,-12~-11,2~3,2~3,,PAB d+1
-Steve,pabd2,l (TC),25,28~29s (29~) cs6~,-12~-11,7~8,KND,Wall Bounce,PAB d+2
+Steve,pabd2,l (TC),25,28~29s (29~) cs6~,-12~-11,7~8,KND,,PAB d+2
 Steve,pabb1,m,15,17~18 (18~),-19~-18,-6~-5,-6~-5,,PAB b+1
 Steve,pabb11,"m, h","15,10",17~18 (18~),-7~-6,-1~0,-1~0,,"PAB b+1,1"
 Steve,pabb112,"m, h, m","15,10,12",17~18 (18~),-11~-9,-5~-3,-5~-3,,"PAB b+1,1,2"
 Steve,pabb1121,"m, h, m, m","15,10,12,21",17~18 (18~),-10,KND,KND,,"PAB b+1,1,2,1"
 Steve,pabb1121b,"m, h, m, m (FLK)","15,10,12,21",17~18 (18~),-3,KND,KND,,"PAB b+1,1,2,1,b"
-Steve,pabb2,m (SWY),25,28~29 (29~),-14~-13,KND,KND,,PAB b+2
+Steve,pabb2,m (SWY),25,28~29 (29~),-14~-13,KND,KND,Wall Bounce,PAB b+2
 Steve,pabu2,m (TJ),23,17~19a (18~) js9~,-15~-13,Launch,Launch,,PAB u+2
 Steve,pabuf2,m (TJ),23,17~19a (18~) js9~,-15~-13,Launch,Launch,,PAB u/f+2
 Steve,b3,(Special) (TC) (SWY),17~19 (18~) 9~,b+3,,,,,b+3 or b+4 (to SWY)
@@ -7662,7 +7667,7 @@ Lei,bt 3,h,18,10,-8,KND,KND,,BT 3
 Armor King,ragefnddf1+2*,h!,0,19,24,24,24,Rage Drive,"In Rage f, n, d, d/f+1+2 hold"
 Armor King,rageb3+4,m,55,20,-22~-21,KND,KND,Rage Art,b+3+4
 Armor King,3,h,25,17,-14,KND,KND,,3
-Armor King,4,h,13,20,-5,6,KND,,4
+Armor King,4,h,20,13,-5,6,KND,,4
 Armor King,1,h,7,10,1,8,8,,1
 Armor King,12,"h, h","7, 10",10,-1,5,5,,"1, 2"
 Armor King,121,"h, h, m","7, 10, 17",10,-5~-4,1~2,31~32g,,"1, 2, 1"
@@ -7691,8 +7696,8 @@ Armor King,f1+2,m,25,20~21,-10~-9,KND,KND,Power Crush,f+1+2
 Armor King,f1+4,m,28,13~15,-20~-18,KND,KND,,f+1+4
 Armor King,df1,m,12,13~14,-1~0,7~8,7~8,,d/f+1
 Armor King,df2,m,21,15~16,-12~-11,-1~-0,KND,,d/f+2
-Armor King,df4,m,15,17,-4,7,7,,d/f+4
-Armor King,df3,m,17,12,-5~-4,5~6,CS,,d/f+3
+Armor King,df4,m,15,12,-4,7,7,,d/f+4
+Armor King,df3,m,17,17,-5~-4,5~6,CS,,d/f+3
 Armor King,df1+2,m,20,25~26,-7~-6,KND,KND,"Homing, Tail Spin",d/f+1+2
 Armor King,df3+4close,"Sm (TJ), h(Throw)","15, 30",28(b),Throw(Self KND),Throw(KND),Throw(KND),,d/f+3+4 (Close)
 Armor King,df3+4,Sm (TJ),15,28~33,-18~-13,-7~-2 OC,-7~-2 OC,,d/f+3+4
@@ -7942,7 +7947,7 @@ Marduk,bt2,h,15,8,-8,3,3,,BT 1 or 2
 Marduk,bt3,h,25,10,-8,KND,KND,,BT 3 or 4
 Marduk,bt4,h,25,10,-8,KND,KND,,BT 3 or 4
 Marduk,rageb1+2,m,55,20,-22,KND,KND,Rage Art,In Rage b+1+2
-Marduk,ragef2+3,m,"35,12",21,KND(Throw),KND(Throw),KND(Throw),Rage Drive,In Rage f+2+3
+Marduk,ragef2+3,m,"35,12",21,7,KND(Throw),KND(Throw),Rage Drive,In Rage f+2+3
 Julia,ragedf1+2,m,55,20,-22,KND,KND,Rage Art,In Rage d/f+1+2
 Julia,ragef2+3,"m,m","20,35",15,2(8),KND,KND,Rage Drive,In Rage f+2+3
 Julia,1,h,7,10,1,8,8,,1
