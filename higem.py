@@ -7,6 +7,7 @@ import char_dict as chd
 import sovets
 import reasons
 
+
 bot = commands.Bot(description='~~Умный бот для умных людей~~', command_prefix=('.higa ', '.higem ', '.framedata ', '.framebot '))
 
 # names for pretty printing
@@ -20,7 +21,6 @@ def get_channels():
     lines = f.readlines()
     f.close()
     return lines
-
 
 # --------------------- COMMANDS ---------------------
 
@@ -180,6 +180,8 @@ guides = {'Devil Jin':    ['https://youtu.be/xDgVkFq--Gc','https://www.youtube.c
 
 @bot.listen()
 async def on_message(message):
+
+
     ms = message.content.strip()
     mch = message.channel
     mid = str(mch.id) + '\n'
@@ -192,6 +194,9 @@ async def on_message(message):
 
     if ms.startswith('!') and len(ms) > 1 and ms[1:].split(' ')[0][0].isalpha() and not ms.startswith('!join') \
             and not ms.startswith('!play') and not ms.startswith('!skip'):
+        if message.guild.id == 563229394232016896:
+            await mch.send("Найдена нелицензионная копия Higem-бота. Пожалуйста активируйте вашу копию.")
+            return
         msg = ms[1:]
         name = msg.split(' ')[0].lower()
         if len(msg.split(' ')) > 1:
@@ -353,4 +358,4 @@ async def on_message(message):
         if mid not in get_channels():
             await message.delete()
 
-bot.run("")
+bot.run("NDE2NjQzNTE1MDg3MzIzMTU3.DdHSWA.sV9BLs5rJ0QCnJiSRjPBoZ7-WO8")
