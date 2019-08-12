@@ -109,9 +109,9 @@ class Higem(discord.Client):
                     print(emb)
                     await mch.send(embed=emb)
                 else:
-                    await mch.send("Can't find Move: {} for Char {}".format(notation, name))
+                    await mch.send("Can't find that move for Character: {}".format(name))
             else:
-                await mch.send("Can't find Char {}".format(name))
+                await mch.send("Can't find Character with that name")
 
 
 client = Higem()
