@@ -108,6 +108,10 @@ class Higem(discord.Client):
                             emb.add_field(name=k, value=frame_data[name][notation][k])
                     print(emb)
                     await mch.send(embed=emb)
+                else:
+                    await mch.send("Can't find Move: {} for Char {}".format(notation, name))
+            else:
+                await mch.send("Can't find Char {}".format(name))
 
 
 client = Higem()
